@@ -1,0 +1,46 @@
+// HTML TAGS
+1) <html>
+2) <head>
+3) <title>
+4) <body>
+5) <div> or <span>
+6) <p>
+7) <img>
+8) <a>
+9) input
+10) <button>
+11) <b> or <i>
+12) <cenetr>
+
+// ATTRIBUTES
+1) <img src="a.png>
+2) <a href="google.com>
+3) <button onclick=">
+4) <input id="username">
+
+// Common Styling Attributes
+1) color
+2) background
+3) border-radius
+4) border
+5) padding or margin
+6) box-shadow
+
+<html>
+  <head></head>
+  <body>
+
+    <div>
+      HII THERE!
+    </div>
+    <center>
+    <img src="achievement.png"></img>
+    </center>
+    <a href = "https://google.com" target="_blank">Go to google</a>
+
+   <h1 style="font-size: 100px; color: red; background-color: aqua; border-radius: 10px; padding: 10px; margin: 55px; box-shadow: 2px 10px 10px black">
+  Hii there!
+</h1>
+
+  </body>
+</html>
