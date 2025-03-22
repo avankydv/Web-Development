@@ -2,9 +2,11 @@
 // const age = 18;
 // var isStudent = true;
 
+
 // console.log(firstName);
 // console.log(age);
 // console.log(isStudent);
+
 
 // var isStudent = "Avanish";
 // isStudent = "Aditya";
@@ -23,6 +25,8 @@
 // console.log(ans);
 // console.log(ans1);
 
+
+
 // function sum(a, b) {
 //   let totalSum = a + b;
 //   return totalSum;
@@ -33,6 +37,7 @@
 
 // console.log(ans);
 // console.log(ans1);
+
 
 // function canVote(age) {
 //   if (age >= 18) {
@@ -66,6 +71,8 @@
 // console.log(user1["age"]);
 // console.log(user1["gender"]);
 
+
+
 // function greet(user) {
 //   console.log("Hii " + user["name"] + " your age is " + user["age"]);
 // }
@@ -76,6 +83,7 @@
 // }
 
 // greet(user);
+
 
 // function greet(user) {
 //   if(user["gender"] == "male") {
@@ -94,6 +102,8 @@
 //   age: "19",
 //   gender: "male"
 // }
+
+
 
 // greet(user);
 
