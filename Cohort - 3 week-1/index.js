@@ -125,3 +125,106 @@
 
 // console.log(val1);
 // console.log(val2);
+
+
+
+
+// Concatination
+// function sum(a, b) {
+//   return  a + b;
+// }
+
+// let ans = sum("7", 3);
+// console.log(ans);
+
+
+// function totalsum(n) {
+
+//   return n * (n + 1) / 2;
+// }
+
+// let ans = totalsum(10);
+// console.log(ans);
+
+
+// const fs = require("fs");
+
+// const contents = fs.readFile("a.txt", "utf-8");  // Asynchronously
+// console.log(contents);
+
+// const contents1 = fs.readFileSync("b.txt", "utf-8");  // Synchronously
+// console.log(contents1);
+
+
+
+// Functional Arguments -- Passing a function to another funtion as an argument
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// function subtract(a, b) {
+//   return a - b;
+// }
+// function multiply(a, b) {
+//   return a * b;
+// }
+// function divide(a, b) {
+//   return a / b;
+// }
+
+// function doOperation(a, b, op) {
+//   return op(a, b);
+// }
+
+// console.log(doOperation(1, 2, sum));
+
+
+
+
+// Asynchornous Code
+
+// const fs = require("fs");
+
+// function print(err, data) {
+//   console.log(data);
+// }
+
+// fs.readFile("a.txt", "utf-8", print); // asynchornously
+
+// fs.readFile("b.txt", "utf-8", print); // asynchornously
+
+// console.log("Done!!");
+
+// const fs = require("fs");
+
+// function print(err, data) {
+//   if(err) {
+//     console.log("File not found");
+//   }
+//   else {
+//     console.log(data);
+//   }
+// }
+
+// fs.readFile("a.txt", "utf-8", print); // asynchornously
+
+// fs.readFile("b.txt", "utf-8", print); // asynchornously
+
+
+
+// function timeout() {
+//   console.log("Click the button!");
+// }
+
+// console.log("Hii");
+
+// setTimeout(timeout, 1000);
+
+// console.log("You are welcome!");
+
+// let c = 0;
+// for(let i=0;i<100000000;i++) {
+//   c = c + 1;
+// }
+
+// console.log("Expensive operation done");
