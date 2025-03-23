@@ -257,3 +257,21 @@
 // const area = rect.area();
 // rect.paint();
 // console.log(area);
+
+
+
+// DATE FUNCTIONS PREDEFINED
+// const date = new Date();
+// console.log(date);
+// console.log(date.getFullYear())
+// console.log(date.getTime());
+// console.log(date.getDate());
+// console.log(date.getMonth());  // 0-based index
+
+// // MAPS
+// const map = new Map();
+// map.set('name', 'Aditya');
+// map.set('age', 18);
+// console.log(map.get('name', 'age'));
+
+// let name = "aditya";
