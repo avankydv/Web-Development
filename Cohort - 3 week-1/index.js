@@ -275,3 +275,71 @@
 // console.log(map.get('name', 'age'));
 
 // let name = "aditya";
+
+
+
+
+// PROMISE
+
+//const { resolve } = require("dns");
+
+// Promise class give you a promise, that I will return you something in the future.
+
+// defining a promise is hard, but using a promise is easy
+
+// A promise in javascrpit is an object that represents the eventual completion or failure on an asynchronous opertaion and its resulting value.
+
+// function main() {
+//   console.log("HII THERE!")
+// }
+
+// setTimeout(main, 3000);    // syntactically cleaner
+// setTimeoutPromisified(3000).then(main)
+
+
+
+// function setTimeoutPromisified(ms) {
+//   let p = new Promise(resolve => setTimeout(resolve, ms));
+//   return p;
+// }
+
+// function callback() {
+//   console.log("3 second have passed");
+// }
+
+// setTimeoutPromisified(3000,).then(callback)
+
+
+// let a = setTimeoutPromisified(5000);
+// console.log(a);
+
+
+// function waitfor3S(resolve) {  // resolve = main
+//   setTimeout(resolve, 3000)
+// }
+
+// function setTimeoutPromisified() {
+//   return new Promise(waitfor3S);
+// }
+
+// function main() {
+//   console.log("main is called");
+// }
+
+// setTimeoutPromisified().then(main);  // Promise based approach
+
+
+
+
+// function random(resolve) {  // resolve is also a function
+//   setTimeout(resolve, 3000);
+// }
+
+// let p = new Promise(random);  // supposed to return you something eventually
+
+
+// // using the eventual value returned by the promise
+// function callback() {
+//   console.log("promise succeded");
+// }
+// p.then(callback)
